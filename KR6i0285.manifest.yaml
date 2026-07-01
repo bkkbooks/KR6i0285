@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0285/v1
+canonical_location: https://kanripo.org/bkk/KR6i0285/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 寂照神變三摩地經
+  identifiers:
+    alt_id:
+    - T15n0648
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0648.xml
+    old_id: T15n0648
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 宮
+  label: 宮
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 元
+  label: 元
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0285_000.yaml, hash: 'sha256:7f0881b09e403688ea10f63772608c7c4b5e50db95497b9a553737d6ff5ae69b'}
+  - {seq: 1, filename: KR6i0285_001.yaml, hash: 'sha256:a31f4b383de75c183191855cbacaa955dde0d1cb3c0a0fabf6da798cf8ea55a1'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0285_001.markers.yaml, hash: 'sha256:0c1c1321c69b2516c7d1a5a648d712dafc7a06356bd7eb9f5d87fae37cf0fda3'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0285_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 5919
+  label: 寂照神變三摩地經
+  type: juan
+  level: 1
+hash: sha256:7694eb0ce837de2abc4d934fd6fdb9f677b5d914701e8d6773fbdcc757397db1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
