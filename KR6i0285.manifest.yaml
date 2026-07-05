@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0285_000.yaml, hash: 'sha256:7f0881b09e403688ea10f63772608c7c4b5e50db95497b9a553737d6ff5ae69b'}
-  - {seq: 1, filename: KR6i0285_001.yaml, hash: 'sha256:a31f4b383de75c183191855cbacaa955dde0d1cb3c0a0fabf6da798cf8ea55a1'}
+  - {seq: 1, filename: KR6i0285_001.yaml, hash: 'sha256:190c9caeac4e43aed00c1170caebea2684be018daecffa51ff0ed2bee8ebb25d'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0285_001.markers.yaml, hash: 'sha256:0c1c1321c69b2516c7d1a5a648d712dafc7a06356bd7eb9f5d87fae37cf0fda3'}
+  - {seq: 0, role: markers, filename: assets/KR6i0285_000.markers.yaml, hash: 'sha256:a5ff38d0ee4b39783c3bb81eb23de163ae88dd09d3f2c9ba24e3edff2ffcc290'}
+  - {seq: 1, role: markers, filename: assets/KR6i0285_001.markers.yaml, hash: 'sha256:0b277476ddd0250ecad5021a80547c4b7c9bfd91b959dc6c54651908ce12ac05'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 寂照神變三摩地經
   type: juan
   level: 1
-hash: sha256:7694eb0ce837de2abc4d934fd6fdb9f677b5d914701e8d6773fbdcc757397db1
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:e013d3057810ce6c6e042b899f9d564505785abed27beb88408abeca786579e3
